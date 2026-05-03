@@ -1,0 +1,111 @@
+vocabulary:
+  name: Triumph Group Vocabulary
+  description: >-
+    Domain vocabulary for Triumph Group, covering aerospace manufacturing, maintenance,
+    repair and overhaul (MRO), aircraft systems, and supply chain management terminology.
+  version: 1.0.0
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Aerospace
+    - Defense
+    - Manufacturing
+    - MRO
+    - Aviation
+
+terms:
+  - term: MRO (Maintenance, Repair and Overhaul)
+    definition: >-
+      All actions that maintain or restore equipment to its original airworthy condition.
+      Triumph MRO services cover structures, interiors, fuel components, accessories,
+      pneumatics, hydraulics, and airframe systems.
+    category: Core Concept
+    tags:
+      - MRO
+      - Aviation
+
+  - term: Aircraft Lifecycle
+    definition: >-
+      The complete lifespan of an aircraft from initial design and manufacturing through
+      operational service, maintenance, and eventual retirement. Triumph positions itself
+      as a partner across the full aircraft lifecycle.
+    category: Core Concept
+    tags:
+      - Aviation
+      - Lifecycle
+
+  - term: Actuation
+    definition: >-
+      Mechanical systems that control primary and secondary flight control surfaces
+      including ailerons, elevators, rudders, and flap mechanisms. One of Triumph's
+      primary product lines.
+    category: Product Category
+    tags:
+      - Flight Controls
+      - Manufacturing
+
+  - term: AOG (Aircraft on Ground)
+    definition: >-
+      A critical maintenance situation where an aircraft is unable to fly due to a
+      mechanical issue requiring immediate repair. Triumph provides AOG support services.
+    category: Operations
+    tags:
+      - MRO
+      - Support
+
+  - term: Geared Solutions
+    definition: >-
+      Triumph's product line covering gearboxes, geared transmissions, and related
+      drive system components for aerospace and defense applications.
+    category: Product Category
+    tags:
+      - Manufacturing
+      - Drive Systems
+
+  - term: Supply Chain Management
+    definition: >-
+      End-to-end management of the aerospace supply chain from raw materials to
+      finished components. Triumph Supply Source supports digital supply chain
+      collaboration with partners.
+    category: Operations
+    tags:
+      - Supply Chain
+      - Procurement
+
+  - term: OEM (Original Equipment Manufacturer)
+    definition: >-
+      A manufacturer that produces components or systems that are incorporated into
+      another company's end product. Triumph is an OEM supplier to major airframe
+      manufacturers.
+    category: Business
+    tags:
+      - Manufacturing
+      - Business
+
+  - term: Airframe
+    definition: >-
+      The structural components of an aircraft excluding the engines. Triumph
+      manufactures and repairs various airframe structures including fuselage panels,
+      wing components, and empennage.
+    category: Technical
+    tags:
+      - Manufacturing
+      - Structures
+
+  - term: Defense Contractor
+    definition: >-
+      A commercial business that provides products or services to defense departments.
+      Triumph serves both commercial aviation and military defense programs.
+    category: Business
+    tags:
+      - Defense
+      - Government
+
+  - term: Fortune 1000
+    definition: >-
+      Triumph Group is classified as a Fortune 1000 company based on annual revenue,
+      reflecting its scale as a major aerospace manufacturing corporation.
+    category: Business
+    tags:
+      - Corporate
+      - Fortune 1000

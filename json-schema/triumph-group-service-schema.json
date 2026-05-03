@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api-evangelist.github.io/triumph-group/json-schema/triumph-group-service-schema.json",
+  "title": "Triumph Group Aerospace Service",
+  "description": "Schema for a Triumph Group aerospace manufacturing, repair, or overhaul service offering",
+  "type": "object",
+  "required": ["serviceId", "name", "category"],
+  "properties": {
+    "serviceId": {
+      "type": "string",
+      "description": "Unique service identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Service name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed service description"
+    },
+    "category": {
+      "type": "string",
+      "description": "Service category",
+      "enum": [
+        "Actuation Products and Services",
+        "Geared Solutions",
+        "Interiors",
+        "Systems Electronics Controls",
+        "Maintenance Repair Overhaul",
+        "Product Support"
+      ]
+    },
+    "applicableAircraftTypes": {
+      "type": "array",
+      "description": "Aircraft types this service applies to",
+      "items": {
+        "type": "string",
+        "enum": ["Commercial", "Regional", "Military", "Business Aviation"]
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "description": "Regulatory certifications for this service",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location": {
+      "type": "object",
+      "description": "Facility location",
+      "properties": {
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": { "type": "string" }
+      }
+    },
+    "contactUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for service inquiries"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "triumph": "https://www.triumphgroup.com/vocab#",
+    "Organization": "schema:Organization",
+    "Product": "schema:Product",
+    "Service": "schema:Service",
+    "maintenanceService": "triumph:maintenanceService",
+    "repairService": "triumph:repairService",
+    "overhaulService": "triumph:overhaulService",
+    "actuation": "triumph:actuation",
+    "gearedSolutions": "triumph:gearedSolutions",
+    "interiors": "triumph:interiors",
+    "systemsElectronicsControls": "triumph:systemsElectronicsControls",
+    "supplyChain": "triumph:supplyChain",
+    "aircraftLifecycle": "triumph:aircraftLifecycle",
+    "aogSupport": "triumph:aogSupport",
+    "militaryAviation": "triumph:militaryAviation",
+    "commercialAviation": "triumph:commercialAviation",
+    "airframe": "triumph:airframe",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "areaServed": "schema:areaServed"
+  }
+}
