@@ -1,143 +1,64 @@
 specification: FinOps Framework
 specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: Triumph Group
+providerId: triumph-group
+created: '2026-05-04'
+modified: '2026-05-05'
+reconciled: false
+tags:
+  - Aerospace
+  - Defense
+  - Manufacturing
+  - FinOps
+  - FOCUS
+description: FinOps shape for Triumph Group cannot be reconciled; the company is an aerospace
+  manufacturer with no public API business and no usage telemetry surface.
+sources:
+  - https://www.triumphgroup.com
+notes: Triumph Group is an aerospace / defense manufacturer; it does not publish API pricing,
+  billing, or usage telemetry. Any FOCUS mapping would only be valid against a bilateral supplier
+  agreement.
 alignedWith:
   framework: FinOps Foundation Framework
   frameworkUrl: https://www.finops.org/framework/
   dataSpec: FOCUS
   dataSpecVersion: '1.3'
   dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
-provider: Triumph Group
-providerId: triumph-group
-publisherName: Triumph Group
-serviceCategory: API
-created: '2026-05-04'
-modified: '2026-05-04'
-tags:
-  - Aerospace
-  - Defense
-  - Manufacturing
-  - Maintenance Repair Overhaul
-  - Aviation
-  - Fortune 1000
-  - FinOps
-  - Cost Management
-  - FOCUS
-description: FinOps framework definition for the Triumph Group API surface. Provides a FOCUS-aligned mapping
-  for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
-principles:
-  - name: Visibility
-    description: Make API consumption costs visible to engineering, product, and finance teams in near
-      real-time.
-  - name: Allocation
-    description: Tag every chargeable API call with the consuming team, environment, application, and
-      feature so cost can be allocated.
-  - name: Optimization
-    description: Continuously evaluate request patterns, caching, batching, and tier selection to reduce
-      cost per useful unit of work.
-  - name: Accountability
-    description: Establish budget owners and chargeback or showback flows for each consuming team.
-domains:
-  - name: Understand Usage and Cost
-    capabilities:
-      - Data Ingestion
-      - Allocation
-      - Reporting and Analytics
-      - Anomaly Management
-  - name: Quantify Business Value
-    capabilities:
-      - Planning and Estimating
-      - Forecasting
-      - Budgeting
-      - Benchmarking
-      - Unit Economics
-  - name: Optimize Usage and Cost
-    capabilities:
-      - Architecting for Cloud
-      - Rate Optimization
-      - Workload Optimization
-      - Cloud Sustainability
-      - Licensing and SaaS
-  - name: Manage the FinOps Practice
-    capabilities:
-      - FinOps Practice Operations
-      - FinOps Education and Enablement
-      - Invoicing and Chargeback
-      - Onboarding Workloads
-      - Intersecting Disciplines
+publisherName: Triumph Group, Inc.
+serviceCategory: Aerospace / Defense
 billingModel:
-  pricingCategory: Usage-Based
-  billingFrequency: Monthly
+  pricingCategory: Contract / Negotiated
+  billingFrequency: Per-Contract
   billingCurrency: USD
   chargeCategories:
-    - Usage
     - Purchase
-    - Tax
-    - Credit
-    - Adjustment
-  chargeFrequency: Recurring
 focusColumns:
-  ServiceName: Triumph Group
-  ServiceCategory: Developer Tools / API
+  ServiceName: Triumph Group API
+  ServiceCategory: Aerospace / Defense
   ProviderName: Triumph Group
-  PublisherName: Triumph Group
-  InvoiceIssuerName: Triumph Group
-  PricingCategory: Usage-Based
-  PricingUnit: request
+  PublisherName: Triumph Group, Inc.
+  InvoiceIssuerName: Triumph Group, Inc.
   BillingCurrency: USD
-  ChargeCategory: Usage
 meters:
-  - name: api_requests
-    description: Count of billable API requests
-    unit: request
+  - name: contract_fees
+    unit: varies
     aggregation: sum
     dimensions:
-      - api
-      - endpoint
-      - tier
-      - region
-      - consumer
-  - name: data_egress
-    description: Bytes returned over the network in API responses
-    unit: GB
-    aggregation: sum
-    dimensions:
-      - api
-      - region
-      - consumer
-  - name: compute_seconds
-    description: Server-side compute consumed by the request, where applicable
-    unit: second
-    aggregation: sum
-    dimensions:
-      - api
-      - endpoint
-      - tier
-apis:
-  - name: Triumph Supply Source Supplier Portal
-    baseURL: https://triumphsupplysource.com
-    tags:
-      - Supply Chain
-      - Supplier Portal
-      - Procurement
-      - Aerospace
-    serviceName: Triumph Supply Source Supplier Portal
-    serviceCategory: API
-  - name: Triumph Group Developer Portal
-    baseURL: https://dev.triumphgroup.com
-    tags:
-      - Developer Portal
-      - Aerospace
-      - MRO
-      - Integration
-    serviceName: Triumph Group Developer Portal
-    serviceCategory: API
-unitEconomics:
-  - name: Cost per 1K Requests
-    metric: billed_cost / (api_requests / 1000)
-    target: TBD
-  - name: Cost per Active Consumer
-    metric: billed_cost / active_consumers
-    target: TBD
+      - contract
+principles:
+  - name: Visibility
+    description: No public consumption telemetry; visibility depends on whatever reporting clauses
+      live inside the Triumph supplier / customer agreement.
+  - name: Allocation
+    description: Allocate any cost to the consuming aerospace program (engine, landing gear,
+      actuation, etc.) using the contract identifier.
+  - name: Optimization
+    description: Optimization levers (volume, term length, multi-program bundling) are negotiated
+      rather than self-serve.
+  - name: Accountability
+    description: Aerospace program owner manages the relationship; procurement handles renewals
+      and contract amendments.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
