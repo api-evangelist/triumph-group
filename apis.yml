@@ -72,7 +72,7 @@ common:
     url: https://ir.triumphgroup.com/
   - type: Vocabulary
     url: vocabulary/triumph-group-vocabulary.yml
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/triumph-group-context.jsonld
   - type: x-profiled
     url: '2026-05'
