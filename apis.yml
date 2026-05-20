@@ -56,6 +56,8 @@ apis:
         url: https://dev.triumphgroup.com/home
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/triumph-group
   - type: Website
     url: https://www.triumphgroup.com
   - type: Developer Portal
