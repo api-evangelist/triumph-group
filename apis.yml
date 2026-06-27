@@ -52,7 +52,7 @@ apis:
       - MRO
       - Integration
     properties:
-      - type: Developer Portal
+      - type: DeveloperPortal
         url: https://dev.triumphgroup.com/home
 
 common:
@@ -60,7 +60,7 @@ common:
     url: https://www.linkedin.com/company/triumph-group
   - type: Website
     url: https://www.triumphgroup.com
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://dev.triumphgroup.com/home
   - type: Supplier Portal
     url: https://triumphsupplysource.com/suppliers
