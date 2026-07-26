@@ -19,10 +19,6 @@ Triumph Group designs, develops, manufactures, repairs, and overhauls a broad po
 
 ## Partner Resources
 
-### Triumph Supply Source Supplier Portal
-Digital supply chain management for Triumph suppliers and business partners.
-
-- **Supplier Portal:** [https://triumphsupplysource.com/suppliers](https://triumphsupplysource.com/suppliers)
 
 ### Triumph Developer Portal
 Digital integration capabilities for aircraft lifecycle partners and customers.
