@@ -74,8 +74,6 @@ common:
     url: vocabulary/triumph-group-vocabulary.yml
   - type: JSONLD
     url: json-ld/triumph-group-context.jsonld
-  - type: x-profiled
-    url: '2026-05'
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
