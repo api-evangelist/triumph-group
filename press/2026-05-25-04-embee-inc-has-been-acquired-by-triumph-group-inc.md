@@ -1,7 +1,9 @@
 ---
 title: Embee, Inc. has been acquired by Triumph Group, Inc.
 url: https://focusbankers.com/deal/embee-inc-acquired-triumph-group-inc/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Triumph Group" press release artificial intelligence'
 position: 4
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Triumph Group Partners with ZS to Deliver Personalized ...
 url: https://financialpost.com/pmn/press-releases-pmn/business-wire-news-releases-pmn/triumph-group-partners-with-zs-to-deliver-personalized-customer-experience-via-state-of-the-art-saas-product-personalize-ai
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Triumph Group" press release artificial intelligence'
 position: 3
 source: serpapi-google
