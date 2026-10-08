@@ -63,6 +63,12 @@ apis:
         url: https://dev.triumphgroup.com/home
 
 common:
+  - type: Plans
+    url: plans/triumph-group-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/triumph-group-rate-limits.yml
+  - type: FinOps
+    url: finops/triumph-group-finops.yml
   - url: https://www.triumphgroup.com/news
     type: Blog
   - type: DomainSecurity
